@@ -58,36 +58,4 @@ Button(root,text="0", width=11, height=1,font=("arial",30,"bold"),bd=1,fg="#fff"
 Button(root,text=".", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#2a2d36",command=lambda: show(".")).place(x=290,y=500)
 Button(root,text="=", width=5, height=3,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#fe9037",command=lambda: calculate()).place(x=430,y=400)
 
-
-
-
-
-
 root.mainloop()
-'''result="error"
-            equation=""
-        label_result.config(text=result)
-label_result= Label(root,width=25,height=2, text="", font=("arial",30))
-label_result.pack()
-
-Button(root,text="C", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#86DC3D",command=lambda: clear()).place(x=10,y=100)
-Button(root,text="/", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="%", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="*", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-
-Button(root,text="7", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="8", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="9", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="-", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-
-Button(root,text="4", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="5", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="6", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="+", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-
-Button(root,text="1", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="2", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="3", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-Button(root,text="0", width=5, height=1,font=("arial",30,"bold"),bd=1,fg="#fff",bg="#8F9779",command=lambda: show("/")).place(x=150,y=100)
-
-root.mainloop()'''
